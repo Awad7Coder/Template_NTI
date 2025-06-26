@@ -1,0 +1,699 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: rgb(155, 147, 147);
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 8vh;
+    padding-top: 20px;
+}
+
+.brand {
+    width: 30%;
+    display: inline-block;
+}
+
+.brand p {
+    font-size: 2.6rem;
+    padding-left: 190px;
+    color: white;
+}
+
+.brand span {
+    color: rgb(231, 144, 63);
+}
+
+.items {
+    float: right;
+    width: 37%;
+    padding-top: 13px;
+}
+
+.items ul li {
+    display: inline;
+    padding-right: 60px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.items ul a {
+    text-decoration: none;
+}
+
+/* end nav */
+/* =============================== */
+/* main */
+.main {
+    width: 100%;
+    position: relative;
+    background-image: url('/images/img.webp');
+    background-size: 100% 100%;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    padding-top: 160px;
+    color: white;
+}
+
+.main .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.main hr {
+    background: white;
+    margin-top: 5%;
+}
+
+.main .right {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+}
+
+.main .left {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+}
+
+.main .right {
+    float: left;
+    width: 50%;
+}
+
+.brandname h3 {
+    font-size: 5rem;
+    color: white;
+}
+
+.main span {
+    color: rgb(231, 144, 63);
+}
+
+.main .right h4 {
+    font-size: 3rem;
+    width: 69%;
+    text-transform: capitalize;
+}
+
+.main .text {
+    width: 86%;
+
+}
+
+.main .text p {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.main .btn {
+    margin-top: 50px;
+    border: 1px white solid;
+    width: fit-content;
+    padding: 20px;
+}
+
+.main .btn a {
+    color: white;
+    font-size: 25px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* right secion end */
+
+/* left secion begin */
+.main .left {
+    float: right;
+    height: 54vh;
+    width: 30%;
+}
+
+.main .title {
+    width: 100%;
+    height: 15%;
+    font-size: 1.7rem;
+    text-align: center;
+    color: black;
+    background-color: rgb(233, 233, 255);
+    padding-top: 20px;
+}
+
+.main form {
+    background-color: rgb(253, 253, 255);
+    width: 100%;
+    height: 78%;
+}
+
+.main input {
+    border: none;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.432);
+    display: block;
+    background-color: transparent;
+    width: 80%;
+    margin: auto;
+    padding: 33px;
+    font-size: 1.6rem;
+}
+
+.start {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(177, 97, 32);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.start a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Main end */
+/* bar */
+.bar {
+    height: 18vh;
+}
+
+.bar_hr {
+    width: 100%;
+    background-color: rgb(141, 141, 141);
+}
+
+.social {
+    float: left;
+    width: 33%;
+}
+
+.social h2 {
+    margin-bottom: 3%;
+    font-size: 1.8rem;
+}
+
+.social p {
+    font-size: 1.4rem;
+    color: rgb(141, 141, 141);
+}
+
+.social_icons {
+    float: right;
+}
+
+.social_icons i {
+    padding: 34px;
+    font-size: 4rem;
+    color: rgb(211, 211, 211);
+}
+
+/* First */
+.first {
+    background-color: rgba(211, 211, 211, 0.432);
+    width: 100%;
+    height: 88vh;
+    margin: auto;
+    padding: 90px;
+}
+
+.tabs {
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+    margin-top: 50px;
+}
+
+.tab {
+    color: white;
+    font-size: 1.9rem;
+    background-color: rgb(44, 40, 40);
+    width: 55%;
+    padding: 45px;
+    border-bottom: 2px white solid;
+}
+
+.first #unique {
+    background-color: rgb(221, 112, 22);
+}
+
+.first .content {
+    width: 80%;
+    height: 80%;
+}
+
+.first .title {
+    margin-top: 4%;
+}
+
+.first .text {
+    width: 36%;
+    margin-top: 4%;
+    color: rgb(172, 170, 170);
+    font-size: 1.1rem;
+}
+
+.first .btn {
+    width: fit-content;
+    margin-top: 90px;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: rgb(221, 112, 22);
+}
+
+.first .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.first .image {
+    width: 50%;
+    position: relative;
+    float: right;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+.first .image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+}
+
+.first .image .mirror {
+    transform: scaleY(-1);
+    opacity: 0.9;
+    filter: blur(0.5px);
+    margin-top: -4px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+}
+
+
+/* First End */
+section {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+img {
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.9);
+}
+
+.sublist {
+    float: right;
+    width: 40%;
+    line-height: 1.5;
+}
+
+.sublist h1,
+hr {
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+.sublist p {
+    font-size: 1.4rem;
+}
+
+hr {
+    width: 15%;
+    border: none;
+    height: 2px;
+    background-color: rgb(233, 144, 11);
+}
+
+.sublist .content {
+    float: right;
+    font-size: 1.2rem;
+}
+
+.sublist .title {
+    margin-top: 9%;
+    display: inline-block;
+}
+
+.content {
+    float: right;
+    width: 80%;
+}
+
+.icon {
+    display: inline-block;
+    width: 10%;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 3%;
+    line-height: 2;
+    color: rgb(233, 144, 11);
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(233, 144, 11);
+}
+
+/* ====================================== */
+
+.four {
+    background-color: rgba(211, 211, 211, 0.432);
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+}
+
+.standard {
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding: 40px;
+    margin-left: 7%;
+}
+
+.standard h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.standard p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.image img {
+    float: right;
+    width: 50%;
+    width: 400px;
+    height: 400px;
+    margin-right: 9%;
+}
+
+/* ==================================== */
+/* fifth section */
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.header hr {
+    width: 4%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 3px;
+}
+
+.card {
+    margin-top: 5%;
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+.card i {
+    color: rgb(233, 144, 11);
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(233, 144, 11);
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 38%;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* =========================== */
+/* fifth */
+.one {
+    float: left;
+    margin-top: 5%;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.one h3 {
+    text-align: center;
+    background-color: rgb(53, 49, 49);
+    padding: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.number {
+    border-bottom: 8px solid rgb(255, 126, 6);
+    background-color: rgb(53, 49, 49);
+}
+
+.number h2 {
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+}
+
+.number span {
+    font-size: 5rem;
+}
+
+.number p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+}
+
+.details p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(61, 59, 59);
+    background-color: white;
+    padding: 20px;
+}
+
+.unique {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 126, 6);
+    font-size: 1.4rem;
+}
+
+/* =========================== */
+/* sixth */
+
+.user {
+    float: left;
+    margin-top: 5%;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user p {
+    width: 70%;
+    background-color: rgba(211, 211, 211, 0.432);
+    padding: 10px;
+}
+
+.say {
+    position: relative;
+}
+
+
+.triangle {
+    position: absolute;
+    left: 30px;
+    bottom: -15px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(211, 211, 211, 0.432);
+}
+
+.position {
+    width: 50%;
+}
+
+.manger {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.position h5 {
+    font-size: 1.5rem;
+}
+
+
+/* ===================== */
+/* seventh */
+.download {
+    width: 100%;
+    position: relative;
+    background-image: url('/images/img.webp');
+    background-size: 100% 100%;
+    height: 40vh;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.download .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Centering without flex */
+.download .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+}
+
+.download h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.download hr {
+    width: 5%;
+    height: 4px;
+    background: white;
+    border: none;
+    margin: 20px auto;
+}
+
+.download .btn a {
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid white;
+}
+
+/* ================================= */
+/* Contact us */
+.contact form {
+    margin-top: 5%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-top: 4%;
+    /* background: #000; */
+    border: none;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.938);
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.contact .btn {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(255, 126, 6);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+#Message {
+    float: right;
+    width: 30%;
+    font-size: 1.6rem;
+    color: rgb(155, 147, 147);
+}
+
+/* ============================= */
+/* footer */
+footer {
+    height: 16vh;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer i {
+    color: blanchedalmond;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+footer span {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    color: white;
+}
